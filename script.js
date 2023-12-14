@@ -1,7 +1,7 @@
 // let weather_data = {};
 const api = (location) => {
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=a61c8bf99b9e54c26afa49c01b32bcaa`
+    `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=60f9467dfcb1f42f4227c0f94c8775b6`
   )
     .then((response) => response.json())
     .then((data) => {
