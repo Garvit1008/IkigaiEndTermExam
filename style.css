@@ -1,0 +1,31 @@
+.maindiv{
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+}
+.appdiv{
+    background-color: rgb(12, 148, 303);
+}
+.headerr{
+    background-color: aqua;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    position: fixed;
+    width: 100%;
+}
+.textt{
+    font-size: large;
+}
+.appbox{
+    width: 100%;
+    color: whitesmoke;
+    font-weight: 500;
+    padding-bottom: 8%;
+}
+.minibox{
+    display: flex;
+    column-gap: 10px;
+}
